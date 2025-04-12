@@ -21,7 +21,7 @@ def calculate_simple_supported_beam(
 
 def calculate_cantilever_beam(length, load_position, load_magnitude, UDL_magnitude):
     """
-    Calculate reactions and bending moments for a cantilever beam.
+    reactions and bending moments for a cantilever beam.
     """
     # Reaction at the fixed support
     R = load_magnitude + (UDL_magnitude * length)
